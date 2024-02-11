@@ -1,0 +1,11 @@
+Task ID,Priority,Latency,Processing Requirements,Execution Node,Actual Execution Time (ms)
+1,High,Low,High,Fog,50
+2,Medium,Medium,Medium,Cloud,200
+3,Low,High,Low,Fog,30
+4,High,Low,High,Fog,60
+5,Low,Medium,Medium,Cloud,150
+6,Medium,High,Low,Cloud,120
+7,High,Low,High,Fog,55
+8,Low,Medium,Medium,Cloud,180
+9,Medium,High,Low,Fog,40
+10,High,Low,High,Fog,70
