@@ -1,0 +1,12 @@
+digraph DecisionTree {
+root -> root_Latency_Low [label="Latency = Low"];
+root_Latency_Low [label="Fog", shape=box, fillcolor="#78bceb"];
+root -> root_Latency_Medium [label="Latency = Medium"];
+root_Latency_Medium [label="Cloud", shape=box, fillcolor="#78bceb"];
+root -> root_Latency_High [label="Latency = High"];
+root_Latency_High -> root_Latency_High_Priority_Low [label="Priority = Low"];
+root_Latency_High_Priority_Low [label="Fog", shape=box, fillcolor="#78bceb"];
+root_Latency_High -> root_Latency_High_Priority_Medium [label="Priority = Medium"];
+root_Latency_High_Priority_Medium -> root_Latency_High_Priority_Medium_Processing Requirements_Low [label="Processing Requirements = Low"];
+root_Latency_High_Priority_Medium_Processing Requirements_Low [label="Cloud", shape=box, fillcolor="#78bceb"];
+}
